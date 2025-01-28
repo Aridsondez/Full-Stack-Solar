@@ -1,7 +1,10 @@
 from django.urls import path, include
-from django.contrib import admin
+from rest_framework.routers import DefaultRouter
+from .views import EnergyDataViewSet
+from .views import SolarPanelViewSet
 
-urlpatterns =[
-    path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
-]
+router = DefaultRouter()
+router.register('energy-data', EnergyDataViewSet, basename='energy-data')
+router.register('solar-panels', SolarPanelViewSet, basename='solar-panels')
+
+urlpatterns = router.urls
