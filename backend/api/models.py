@@ -6,6 +6,7 @@ class HouseHold(models.Model):
     house_id = models.CharField(max_length= 50, unique=True)
     address = models.CharField(max_length = 255)
     num_solar_panels = models.IntegerField()
+    house_size = models.FloatField(default = 2514)
     owner_name =models.CharField(max_length =100, blank = True, null= True)
 
     def __str__(self):
