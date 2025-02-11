@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Solar-Panel": {
+    "solar-panel": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Solar-Panel:build:production"
+              "buildTarget": "solar-panel:build:production"
             },
             "development": {
-              "buildTarget": "Solar-Panel:build:development"
+              "buildTarget": "solar-panel:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -92,8 +92,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": false
   }
 }
