@@ -8,7 +8,8 @@
     align-items: center;
     gap: 20px;
     overflow-x: auto;
-
+    padding-left: 30px;
+    padding-right: 30px;
     scrollbar-width: none;
 }
 
@@ -20,17 +21,41 @@
     width: 30%;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgb(142, 137, 137);
+    box-shadow: 2px 2px 2px 2px rgb(142, 137, 137,0.3) ;
     list-style: none;
     max-width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -5%;
+    flex-grow: 0;
+    align-items: center;
 
 }
 .img-shellShockLogo{
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 80%;
 
 
 }
+
+.companyService{
+    width: fit-content;
+}
+.li-services {
+    transition: transform 0.3s ease-in-out;
+}
+
+.li-services:hover {
+    transform: scale(1.04);
+}
+.img-homeLogo{
+    width: 100%;
+}
+
+.img-all{
+    width: 200px;
+}
+.solarPanelLogo{
+    width: 120px;
+}
+

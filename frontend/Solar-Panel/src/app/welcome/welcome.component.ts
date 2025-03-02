@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class WelcomeComponent {
 
+
+  welcomeStatement: string = "Welcome to ShellShock ⚡"
+  shellShockDescription : string = "A Solar Powered Montering App"
+
 }

@@ -1,0 +1,32 @@
+.welcomeMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-welcomeStatement{
+
+
+    color: green;
+    animation: opacityChange 2s;
+    margin-bottom: 2px;
+}
+
+.h3-shellShockDescription{
+    margin-top: 2px;
+    font-style: italic;
+
+}
+.h1-monteringChoice{
+    margin:auto;
+}
+
+@keyframes opacityChange {
+    from {opacity: 0;}
+    to{opacity: 100;}
+    
+}
+
+@keyframes blinkingChange{
+    from {opacity: 0;}
+    to{opacity: 100;}
+}
